@@ -27,9 +27,9 @@ public class MainApp {
       user1.setCar(new Car(carModel1, carSeries1));
       user3.setCar(new Car("Car2", 999));
 
-      userService.add(user1);
-      userService.add(user2);
-      userService.add(user3);
+      userService.addUser(user1);
+      userService.addUser(user2);
+      userService.addUser(user3);
 
       List<User> users = userService.listUsers();
       for (User user : users) {
