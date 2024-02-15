@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.TypedQuery;
 
 @Repository
-public class CarDaoImp implements CarDao {
+public class CarDaoImpl implements CarDao {
 
     @Autowired
     private SessionFactory sessionFactory;
